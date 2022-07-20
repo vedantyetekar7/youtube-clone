@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube</title>
   </head>
-  <body style="padding-top: 60px; height: 3000px">
+  <body style="padding-left: 80px; padding-top: 60px; height: 3000px">
     <div
       style="
         background-color: black;
@@ -16,10 +16,47 @@
         left: 0px;
         right: 0px;
         height: 50px;
+        z-index: 1;
       "
     >
       HEADER
     </div>
+    <div
+      style="
+        background-color: green;
+        color: white;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 50px;
+        width: 72px;
+      "
+    >
+      <div
+        style="
+          position: absolute;
+          background: red;
+          color: white;
+          top: 0px;
+          right: 0px;
+        "
+      >
+        X
+      </div>
+    </div>
+
+    <div
+      style="
+        position: absolute;
+        background: red;
+        color: white;
+        top: 60px;
+        right: 10px;
+      "
+    >
+      Absolute
+    </div>
+
     <div
       style="
         background-color: cyan;
@@ -30,8 +67,27 @@
     >
       DIV 1
     </div>
-    <div style="background-color: thistle; height: 200px; width: 200px">
-      DIV 2
+    <div
+      style="
+        background-color: thistle;
+        height: 200px;
+        width: 200px;
+        position: relative;
+      "
+    >
+      <div
+        style="
+          position: absolute;
+          background: black;
+          color: white;
+          bottom: 10px;
+          right: 10px;
+        "
+      >
+        02:00
+      </div>
     </div>
   </body>
 </html>
+
+<!-- 5:18 -->
